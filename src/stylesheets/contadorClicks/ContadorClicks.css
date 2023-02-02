@@ -1,0 +1,45 @@
+.contador__container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    padding: 3rem 0;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contador__incrementando {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: rgb(37, 37, 107);
+    min-width: 35rem;
+    height: 25rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 4rem;
+}
+
+.contador__incrementando p {
+    color: white;
+    font-size: 24rem;
+}
+
+.btns {
+    display: flex;
+    gap: 3rem;
+}
+
+.btns button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(37, 37, 107);
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

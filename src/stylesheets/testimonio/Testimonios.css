@@ -1,0 +1,46 @@
+.container__testimonio {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.img__testimonio {
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.container__texto__testimonio {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.container__testimonio h3,
+p {
+    margin-bottom: 1rem;
+}
+
+.cargo__testimonio {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-decoration: underline rgba(0, 0, 0, 0.507);
+}
+
+.texto__testimonio {
+    text-align: justify;
+}
+
+@media (min-width:980px) {
+    .container__testimonio {
+        flex-direction: row;
+        column-gap: 1rem;
+    }
+
+    .img__testimonio {
+        margin-bottom: 0;
+    }
+}

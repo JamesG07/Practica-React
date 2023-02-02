@@ -1,0 +1,15 @@
+.contenedor__calculadora {
+    width: 40rem;
+    height: 60rem;
+    padding: 1.4rem;
+    background-color: #99c9ff;
+    margin: 0 auto 2rem auto;
+    box-shadow: inset 0 0 0 3px #fff;
+    border-radius: 1.5rem;
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    text-align: center;
+}

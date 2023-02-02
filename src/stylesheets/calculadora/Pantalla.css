@@ -1,0 +1,12 @@
+.input {
+    height: 75px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    padding: 11px;
+    background-color: rgba(20, 29, 99, 0.959);
+}
